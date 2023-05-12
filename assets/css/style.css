@@ -1,0 +1,109 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #455087;
+}
+
+.header{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    font-family:'Courier New';
+    font-size: 25px;
+    background-color: rgb(102, 141, 174);
+    color:black;
+}
+
+
+.header nav{
+   padding-top:  15px;
+   margin-right:  20px;
+   float: right;
+   font-size: 20px;
+}
+
+.header nav ul{
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+
+}
+   
+
+.headshot{
+    display: block;
+    margin: 10px right;
+    max-width: 300px;
+}
+   
+.image1{
+    display:flex;
+    margin: 10px right;
+    max-width: 900px;
+    align-content: center;
+}
+
+.image2{
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    float: left;
+    width: 25%;
+}
+
+.image3{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 10px right;
+    max-width: 300px;
+}
+
+.image4{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 10px right;
+    max-width: 300px;
+}
+
+.contact{
+    justify-content: right
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+
+@media screen and (max-width:992px) {
+    .headshot {
+        width: 50%;
+
+    }
+    .header {
+        background-color: blueviolet;
+    }
+
+    .image1 {
+        width: 50%;
+
+    }
+
+    .image2{
+        width:50%;
+    }
+    
+
+}
+
+
+
+
+
